@@ -3,31 +3,9 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/Header.tsx",
-      "navigation": {
-        "links": [
-          {
-            "label": "Models",
-            "url": "models"
-          },
-          {
-            "label": "Features",
-            "url": "features"
-          },
-          {
-            "label": "Specs",
-            "url": "specs"
-          }
-        ],
-        "buttons": [
-          {
-            "href": "builder",
-            "text": "Custom Builder"
-          }
-        ]
-      },
-      "logo": {
-        "src": "https://data.decoassets.com/eduardoribeiro/580724ef-c80b-4c48-b0c9-3adf71825442/Logo-Pluria---Black.png"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
       }
     },
     {
